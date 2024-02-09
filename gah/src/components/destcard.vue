@@ -16,7 +16,7 @@ const props = defineProps({
 //clicker
 const clicked = ref(0)
 function increment(){
-    clicked.value=clicked.value+8347536485739284756384756928347560283746
+    clicked.value=clicked.value+1
 }
 </script>
 
