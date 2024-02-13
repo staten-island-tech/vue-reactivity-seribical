@@ -1,11 +1,12 @@
 <script setup>
-import {store} from "./stores/store"
+import {currency, persecond} from "./stores/store"
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <header>
-    <h1>{{ store.count }}</h1>
+    <h1>{{ currency.count }} Bitcoins </h1>
+    <h2>{{ persecond.count }} Bitcoins Per Second</h2>
 
     <div class="wrapper">
 

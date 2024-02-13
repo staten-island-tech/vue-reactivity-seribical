@@ -1,16 +1,16 @@
 <template>
   <div>
     <button @click="add">
-      From B: {{ store.count }}
+      From B: {{ currency.count }}
   </button>
   </div>
 </template>
 
 <script setup>
-import {store} from "../stores/store"
+import {currency} from "../stores/store"
 
 function add(){
-  store.count=store.count+5
+  currency.count=currency.count+1
 }
 </script>
 
