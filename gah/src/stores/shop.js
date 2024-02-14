@@ -61,13 +61,27 @@ export const shopitems = reactive([
         name:"Global PC Virus Scandal",
         cost:2500000,
         power:500000,
-        multiplier:1.1,
+        multiplier:1.12,
         amount:0
     },
     {
         name:"Chinese Spyware App",
         cost:10000000,
         power:2100000,
+        multiplier:1.12,
+        amount:0
+    },
+    {
+        name:"Certain Ethnic Group",
+        cost:50000000,
+        power:12000000,
+        multiplier:1.1,
+        amount:0
+    },
+    {
+        name:"Ethan De Jesus",
+        cost:250000000,
+        power:62000000,
         multiplier:1.1,
         amount:0
     },

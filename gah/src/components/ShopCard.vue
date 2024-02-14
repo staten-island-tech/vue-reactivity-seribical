@@ -1,6 +1,10 @@
 <template>
-    <div @click="addpower(Items)">
-        <h2>{{ Items.name }}</h2>
+    <div @click="addpower(Items)" id="object">
+        <div>
+            <h2>{{ Items.name }}</h2>
+            <h3>{{ Items.amount }}</h3>
+        </div>
+        
         <h3>{{ Items.cost }}</h3>
     </div>
 </template>
@@ -18,6 +22,7 @@ function addpower(Items){
         currency.count=currency.count-Items.cost
         persecond.count=persecond.count+Items.power
         Items.cost=Math.round(Items.cost*Items.multiplier)
+        Items.amount=Items.amount+1
     }
 }
 </script>
@@ -27,5 +32,10 @@ img{
     widows: 300px;
     height: 350px;
     object-fit: cover;
+}
+#object{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 </style>

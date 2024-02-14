@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button @click="add">
-      From B: {{ currency.count }}
+    <button @click="add" id="bitcoin">
+      <h3>Click to mine a Bitcoin</h3>
   </button>
   </div>
 </template>
@@ -15,5 +15,9 @@ function add(){
 </script>
 
 <style scoped>
+#bitcoin{
+  width: 100%;
+  height: 100px;
 
+}
 </style>
