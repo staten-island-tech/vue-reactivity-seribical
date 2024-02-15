@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 
 export const currency = reactive({
-  count: 0
+  count: 0,
 })
 
 export const persecond = reactive({

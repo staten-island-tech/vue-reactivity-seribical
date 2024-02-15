@@ -86,3 +86,27 @@ export const shopitems = reactive([
         amount:0
     },
 ])
+
+export const upgrades = reactive([
+    {
+        name:"Click Harder",
+        multiplier:2,
+        desc:"Harder clicking means more bitcoins (duh)",
+        cost:100,
+        available:"yes"
+    },
+    {
+        name:"Better Mouse",
+        multiplier:2,
+        desc:"Better mouse means more bitcoin",
+        cost:1000,
+        available:"yes"
+    },
+    {
+        name:"Better Mouse",
+        multiplier:2,
+        desc:"Better mouse means more bitcoin",
+        cost:1000,
+        available:"yes"
+    },
+])

@@ -10,7 +10,7 @@
 import {currency} from "../stores/store"
 
 function add(){
-  currency.count=currency.count+1
+  currency.count+=1
 }
 </script>
 
